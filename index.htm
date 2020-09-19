@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Bonk</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="bonk.css" />
+    <style></style>
+</head>
+
+<body>
+    <p>Bonk v.0.2</p>
+    <p>Updates soon™</p>
+    <button id="saveGame">Save Bonks</button>
+    <img id="bonk" src="bonk.jpg" />
+    <button id="resetGame">Reset All Bonks</button>
+    <br />
+    <a>Bonk Counter: </a><a id="bonkCounter">0</a>
+    <br />
+    AutoBonk Animation<input type="checkbox" id="autoBonkAnim" />
+    <div class="wrapper">
+            <div class="left">
+                <div class="inline-div">
+                    <button id="doBonk">Bonk</button>
+                </div>
+                <div class="inline-div">
+                    <button id="batUpgrade">Bat Upgrade</button>
+                </div>
+                <div class="inline-div">
+                    <button id="autoBonk">Auto Bonkers</button>
+                </div>
+                <div class="inline-div">
+                    <button id="muchBonk">Much Bonk</button>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="center">
+                <div class="inline-div">
+                    <a class="upgradeCost">Cost: Bonk</a>
+                </div>
+                <div class="inline-div">
+                    <a class="upgradeCost">Cost: </a><a id="batCost"></a>
+                </div>
+                <div class="inline-div">
+                    <a class="upgradeCost">Cost: </a><a id="autoBonkCost"></a>
+                </div>
+                <div class="inline-div">
+                    <a class="upgradeCost">Cost: </a><a id="muchBonkCost"></a>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="right">
+                <div class="inline-div">
+                    <a class="buttonTracker">Bonk</a>
+                </div>
+                <div class="inline-div">
+                    <a class="buttonTracker">Bonks per Click: </a><a id="bonkPC"></a>
+                </div>
+                <div class="inline-div">
+                    <a class="buttonTracker">Bonks per Second: </a><a id="bonkPS"></a>
+                </div>
+                <div class="inline-div">
+                    <a class="buttonTracker">Much BPS: </a><a id="muchBPS"></a>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </div>
+    <script src="bonk.js"></script>
+</body>
+</html>
